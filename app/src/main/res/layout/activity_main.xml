@@ -40,12 +40,21 @@
         android:id="@+id/button22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
         android:onClick="mainclick"
-        android:text="о разработчике"
+        android:outlineAmbientShadowColor="#4CAF50"
+        android:outlineSpotShadowColor="#4CAF50"
+        android:shadowColor="#4CAF50"
+        android:text="о версиях"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#4CAF50"
+        android:textColorHint="#4CAF50"
+        android:textColorLink="#4CAF50"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/startButton2"
-        app:layout_constraintVertical_bias="0.843" />
+        app:rippleColor="#4CAF50"
+        app:strokeColor="#4CAF50" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
